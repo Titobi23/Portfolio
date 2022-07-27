@@ -1,0 +1,172 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Main Div for Header */
+#mother{
+    background-color: white;
+    color: rgb(30, 19, 37);
+    border-bottom:  2px solid rgb(231, 226, 71);
+    height: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+/* logo */
+#logo{
+    border-radius: 15px;
+}
+
+#logo_image{
+  height: 90px; 
+  border-radius: 5px;
+}
+
+/* Navigation bar */
+#menu{
+    font-size: 25px;
+   padding: 30px;
+}
+ 
+ul li {
+     display: inline;
+     margin: 3px; 
+ }
+ 
+ul li a {
+     text-decoration: none;
+     color: rgb(30, 19, 37);
+ }
+ 
+ul li:hover{
+     background-color:  rgb(115, 78, 151);
+     padding: 10px 15px;
+     border-radius: 50px;
+}
+ 
+ul li a:hover{
+     color:rgb(231, 226, 71) ;
+}
+ 
+/* icons */
+#icons{
+    margin-top: 30px;
+    width:15%;
+}
+ 
+.fa {
+     padding: 5px;
+     font-size: 15px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+     margin: 5px 2px;
+     border-radius: 50px;
+}
+ 
+.fa:hover {
+     opacity: 0.7;
+}
+ 
+.fa-linkedin {
+     background: #007bb5;
+     color: white;
+}
+ 
+.fa-github {
+     background: black;
+     color: white;
+} 
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: rgb(240, 77, 90);
+    color: white;
+}
+/* Remark */
+#Remark{
+    margin-top: 40px;
+    color: rgb(30, 19, 37);
+}
+p{
+    text-align: center;
+    font-size:xx-large;
+}
+/* Avatar */
+#avatar{
+    margin-top: 30px;
+}
+#avatar_image{
+    display: flex;
+    justify-content: center;
+}
+.avatar {
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+/* About */
+#body{
+    background-color: rgb(30, 19, 37);
+    color: white;
+}
+#About{
+margin-top: 20px;
+}
+#greeting{
+    
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#languages{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+/* projects */
+#Projects{
+    margin-top: 20px;
+}
+/* Contact */
+#Contact_me{
+    margin-top: 30px;
+    background-color:black;
+    color: white;
+}
+ 
+
+
+
+/* media Query */
+@media (max-width: 768px){
+    #logo{
+        display: none;
+    }
+    #icons{
+        display: none;
+    }
+    #menu{
+        font-size:1em;
+    }
+    h1{
+        font-size: large;
+    }
+    p{
+        font-size: 1em;
+    }
+    .avatar{
+        width: 200px;
+        height: 200px; 
+    }
+    ul li:hover{
+        font-size:1em; 
+    }
+}
